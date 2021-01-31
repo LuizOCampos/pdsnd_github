@@ -24,6 +24,32 @@ The program is interactive, which means, the program was created to ask how the 
 * You want to filter by month or day?
 * If you want to filter by month, which month you want to analyse?
 
+### External libraries
+
+The bikeshare program uses 2 libraries that aren't include in default python installation.
+
+**[pandas]** 
+
+**[numpy]**
+
+These libraries are used to compute statistics and work with arrays inside the program.
+
+If you have a **standard python* installation, you might need to install both of these libraries in order to use the bikeshare program
+
+Installing libraries using PIP package manager
+
+```sh
+pip install pandas
+```
+
+```sh
+pip install numpy
+```
+
+**If you have installed python using Anaconda distribution, you're already have the numpy and pandas installed, since these libraries are heavily used in data science projects*
+
+[pandas]: https://pandas.pydata.org/
+[numpy]: https://numpy.org/
 
 
 ## Files used
