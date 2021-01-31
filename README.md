@@ -9,12 +9,12 @@ January 31, 2021
 ### Description
 Bikeshare is a interactive python program that reads 3 csv files containing bike share system data from 3 cities in the United States - New York, Washington and Chicago
 
-After reading the data, the program provides some statistics about the data such as: 
+After reading the data, the program provides some statistics about the chosen city such as: 
 
-* what is the most common month ?
-* what is the total travel time ?
-* what is the most common start station ?
-* what is the gender distribution of the users that use the bike system?
+* What is the most common month that users used the bike in the city?
+* What is the total travel time (duration in seconds)?
+* What is the most common start station where users start their ride?
+* What is the gender distribution of the users that use the bike system?
 
 and many more!
 
