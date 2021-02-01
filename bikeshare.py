@@ -204,16 +204,15 @@ def user_stats(df):
 
     user_types = df['User Type'].value_counts()
     print("User type breakdown\n")
-    for i,v in zip(user_types.index,user_types.values):
-        print(i,":",v)
-
+    [print(i,":",v) for i,v in zip(user_types.index,user_types.values)]
+        
 
     # Display counts of gender
     if 'Gender' in df:
         gender = df['Gender'].value_counts()
         print("\nGender breakdown:\n")
-        for i,v in zip(gender.index,gender.values):
-            print(i,":",v)
+        [print(i,":",v) for i,v in zip(gender.index,gender.values)]
+            
 
     # Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df:
