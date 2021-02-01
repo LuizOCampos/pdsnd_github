@@ -237,8 +237,8 @@ def main():
         user_stats(df)
 
         while True:
-            records = input("\nWould you like to view a sample of the data (5 random records)? Enter yes or no.\n")
-            if records.lower() != 'yes':
+            records = input("\nWould you like to view a sample of the data (5 random records)? Enter yes or no.\n").lower()
+            if records != 'yes':
                 break
             else:
                 #outputs the original columns from the DF  (5 random rows)
@@ -249,8 +249,8 @@ def main():
                     print(df[['Start Time','End Time','Trip Duration','Start Station','End Station','User Type']].sample(5).to_json(orient='records', indent = 4))
 
 
-        restart = input("\nWould you like to restart? Enter yes or no.\n")
-        if restart.lower() != 'yes':
+        restart = input("\nWould you like to restart? Enter yes or no.\n").lower()
+        if restart != 'yes':
             break
 
 
